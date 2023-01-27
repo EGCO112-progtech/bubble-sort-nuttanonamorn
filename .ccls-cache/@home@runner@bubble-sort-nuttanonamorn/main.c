@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
   int i,j = 0;
     for(i=0;i<n;i++){
       a[i]=atoi(argv[i+1]);
-      if(Isprime(a[i])){
+      if(Isprime(a[i] == 1)){
         prime[j]=a[i];
         j++;
         }
